@@ -1,0 +1,25 @@
+{
+  "name": "crc/crc-signup-module",
+  "description": "Signup module for Credit Repair Cloud software",
+  "type": "project",
+  "license": "BSD-2-Clause",
+  "autoload": {
+    "psr-4": {
+      "CRCSignup\\Controller\\": "app/controllers",
+      "CRCSignup\\Interfaces\\": "app/interfaces",
+      "CRCSignup\\Model\\": "app/models",
+      "CRCSignup\\Libraries\\": "app/libraries",
+      "CRCSignup\\Helper\\": "app/helpers"
+    }
+  },
+  "require": {
+    "recurly/recurly-client": "^3.1",
+    "vlucas/phpdotenv": "^4.1",
+    "rackspace/php-opencloud": "dev-master",
+    "vlucas/valitron": "^1.4"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.3",
+    "phpunit/phpunit": "^9.2"
+  }
+}

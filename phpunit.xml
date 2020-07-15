@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" verbose="true" bootstrap="vendor/autoload.php">
+    <testsuites>
+        
+        <testsuite name="sample">
+            <directory suffix=".php">tests/SampleTest.php</directory>
+        </testsuite>
+        <testsuite name="zapier">
+            <directory suffix=".php">tests/data</directory>
+            <directory suffix=".php">tests/ZapierTest.php</directory>
+        </testsuite>
+        <testsuite name="intercom">
+            <directory suffix=".php">tests/data</directory>
+            <directory suffix=".php">tests/IntercomTest.php</directory>
+        </testsuite>
+
+        <testsuite name="growsumo">
+            <directory suffix=".php">tests/data</directory>
+            <directory suffix=".php">tests/GrowsumoTest.php</directory>
+        </testsuite>
+      
+        
+        <testsuite name="creditherochallenge">
+            <directory suffix=".php">tests/data</directory>
+            <directory suffix=".php">tests/CreditHeroChallengeTest.php</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
