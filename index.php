@@ -9,4 +9,3 @@ $dotenv->load();
 use CRCSignup\Libraries\Core;
 
 $init = new Core;
-
